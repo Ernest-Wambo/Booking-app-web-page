@@ -1,0 +1,101 @@
+
+		
+            <h2>Welcome to Our Booking Platform</h2>
+            
+            <p>Discover seamless booking experiences tailored just for you. Whether you're planning a getaway, reserving a table, or scheduling an event, our user-friendly platform ensures a hassle-free booking process. Explore our services and make your reservations with ease.</p>
+        
+
+		<section>
+			<h3>Find Your Next Stay</h3> 
+
+			<p>Search deals that suits you and more...</p><br/>			
+			<form  action="process.php" method="post">
+				<fieldset>
+					<legend>Clients Information</legend>
+					<label for="name">Name:</label>
+					<input type="text" id="name" maxlength="20" placeholder="Cristiano R" required="required"/>
+
+					<label for="sex">Sex:</label>
+					<select id="sex" name="sex">
+						<option value="1">Male</option>
+						<option value="2">Female</option>
+						<option value="4">Other</option>
+					</select><br/>
+
+					<label for="email">E-mail:</label>
+					<input type="text" id="email" name="Surname" maxlength="30" placeholder="Univproject@hotmail.com" required="required"/>
+
+					<label for="address">Address:</label>
+					<input type="text" id="address" name="Address" maxlength="35"/>
+
+					<label for="city">City:</label>
+					<input type="text" id="city" name="City"/><br/>
+
+					<label for="postalCode">Postal code:</label>
+					<input type="number" id="postalCode" name="Postal code"/>
+
+					<label for="phone">Phone:</label>
+					<input type="tel" id="phone" name="number" maxlength="9"/>
+
+					
+        			<label  class="Password" >Password:</label>
+        			<input type="password" class="form-control" placeholder="Password">
+     				
+     				
+        			<button type="submit" class="btn btn-primary">Confirm</button>
+      			
+				</fieldset>
+
+				<fieldset>
+					<legend>Booking Information</legend>
+
+					<label for="roomType">Room Type:</label>
+					<input id="roomType" name="roomType" list="rooms"/>
+					<datalist id="rooms">
+						<option value="Single"></option>
+						<option value="Double"></option>
+						<option value="Triple"></option>
+						<option value="Quad"></option>
+						<option value="Queen"></option>
+						<option value="King"></option>
+						<option value="Twin"></option>
+						<option value="Hollywood twin"></option>
+					</datalist> 
+
+					<label >Number of Guests:</label>
+					<input type="number" name="nGuess" min="1" max="4"/><br/>
+
+					<label >Arrival Date:</label>
+					<input type="date" name="Arrival"/>
+
+					<label >Arrival Time:</label>
+					<input type="time"  name="aTime"/><br/>
+
+					<label>Free Pickup:</label>
+					<input type="radio" name="choice" value="yes"/>
+					<label >Yes, Sure</label>
+
+					<input  type="radio" name="choice" value="no"/>
+					<label  >No, I Already Rented a Car</label><br/>
+
+					<label for="otherRequests">Other Requests:</label><br/>
+					<textarea id="otherRequests" name="requests" rows="3" cols="40" placeholder="Use this space for any other inquiries"></textarea>
+					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="reset"  class="btn btn-danger">Clear</button>
+				</fieldset>
+			</form>
+			</section>
+
+			<section>
+		
+    			<h3><em><i>Featured Video</i></em></h3>
+<figure>
+  <iframe src="https://www.youtube.com/embed/fbu-ktg4gGM?start=53" title="Underwater restaurant in the Maldives | Surreal fine dining experience" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <figcaption>Your video description goes here.</figcaption>
+</figure>                	
+
+    			<p>Unveiling the Hidden Gems of the World: A Guide to Offbeat Experiences The world is a vast and fascinating place, filled with countless hidden gems waiting to be discovered. From ancient ruins to secluded beaches, from vibrant street markets to serene natural wonders, there's something extraordinary to explore around every corner. For those seeking an authentic and offbeat travel experience, here's your guide to uncovering some of the world's most enchanting hidden spots:</p>
+    			<button class="btn btn-primary" onclick="window.location.href='./About.html';">Click Me!</button>
+    		</section>
+
+		
